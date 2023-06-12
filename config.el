@@ -5,6 +5,8 @@
 (setq projectile-project-search-path '("~/src/" "~/work/"))
 (setq +format-with-lsp nil)
 
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
 (setq user-full-name "João Paulo Barbosa"
